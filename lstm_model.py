@@ -42,7 +42,7 @@ def train_lstm(data):
     model.fit(
         X,
         y,
-        epochs=60,
+        epochs=20,
         batch_size=8,
         verbose=0
     )
